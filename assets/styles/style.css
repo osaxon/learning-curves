@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    text-align: right;
+    padding: 1rem;
+}
+
+.flex-wrapper-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.parralax {
+    background-image: url("assets/img/boat.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.boat-img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+}
